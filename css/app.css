@@ -1,0 +1,11 @@
+.filterCompleted_false ._todoList li.completed {
+  display: none;
+}
+
+.filterCompleted_true ._todoList li{
+  display: none;
+}
+
+.filterCompleted_true ._todoList li.completed {
+  display: list-item;
+}
